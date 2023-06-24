@@ -3,6 +3,6 @@
 #prints the last digit of a number.
 
 def print_last_digit(number):
-    print("{}".format(last), end="")
     last = abs(number) % 10
+    print("{}".format(last), end="")
     return last
