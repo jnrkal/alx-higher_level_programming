@@ -4,12 +4,12 @@
 
  def fizzbuzz():
 
-     for numb in range(1, 101):
-         if numb % 3 == 0 and numb % 5 == 0:
-             print("FizzBuzz ", end="")
-         elif numb % 3 == 0:
-             print("Fizz ", end="")
-         elif numb % 5 == 0:
-             print("Buzz ", end="")
+     for nun in range(1, 101):
+         if num % 3 == 0 and num % 5 == 0:
+             print("FizzBuzz")
+         elif num % 3 == 0:
+             print("Fizz")
+         elif num % 5 == 0:
+             print("Buzz")
          else:
-             print(numb, end="")
+             print(num)
